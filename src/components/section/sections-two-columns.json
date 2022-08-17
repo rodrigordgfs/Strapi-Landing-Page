@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_section_sections_two_columns",
+  "info": {
+    "displayName": "sections_two_columns",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 20
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata",
+      "required": true
+    }
+  }
+}
